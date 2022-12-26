@@ -1,8 +1,6 @@
-package Maven;
+package maven;
 
 import com.google.gson.Gson;
-
-import java.util.Collections;
 
 /**
  * Hello world!

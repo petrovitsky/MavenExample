@@ -1,4 +1,4 @@
-package Maven;
+package maven;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

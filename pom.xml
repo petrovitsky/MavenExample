@@ -61,7 +61,7 @@
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <manifestEntries>
-                                        <Main-Class>Maven.App</Main-Class>
+                                        <Main-Class>maven.App</Main-Class>
                                         <Build-Number>1</Build-Number>
                                     </manifestEntries>
                                 </transformer>
@@ -71,7 +71,7 @@
                 </executions>
             </plugin>
         </plugins>
-        <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (maybe moved to parent pom) -->
+        <pluginManagement><!-- lock down plugins versions to avoid using maven defaults (maybe moved to parent pom) -->
             <plugins>
                 <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
                 <plugin>
